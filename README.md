@@ -11,9 +11,9 @@ Beware of cacheing issues, always use an private/incognito tab so no cacheing oc
 
     $ npm init
 
-    Install http-server globally
+    Because .mjs is still experimental, you must use a Webserver to run it. Running in the browsers using local files will not work due to this issue.
 
-    $ npm init
+    Install http-server globally
 
     $ npm install http-server -g
 
