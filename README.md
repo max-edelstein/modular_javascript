@@ -17,6 +17,10 @@ Beware of cacheing issues, always use an private/incognito tab so no cacheing oc
 
     $ npm install http-server -g
 
-    $ http-server .
+    Start the web server without javascript cacheing
+
+    $ http-server . -c-1
 
     Then goto http://127.0.0.1:8080/
+
+    Beware of javascript cacheing, better open a private window/tab
