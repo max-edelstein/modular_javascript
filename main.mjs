@@ -12,3 +12,5 @@ moduleOne();
 moduleTwo();
 
 console.log('hello from main.mjs');
+
+document.getElementById('editMe').textContent = 'dom edit by main.mjs';
