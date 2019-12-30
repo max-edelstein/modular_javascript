@@ -1,3 +1,14 @@
+import { moduleTwo } from './moduleTwo.mjs';
+
+import { another } from './../moreModules/another.mjs';
+
+console.log('The following call was imported from moduleTwo.mjs');
+moduleTwo();
+
+const holder = document.getElementById('editMe');
+
+holder.textContent = 'dom edit by shapeClass.mjs';
+
 export function Shape(config) {
 
   // default setup
